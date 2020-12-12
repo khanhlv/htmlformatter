@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+	<title>HTML Formatter - Beautifier Online</title>
+	<link rel="dns-prefetch" href="//www.googletagservices.com" />
+	<link rel="dns-prefetch" href="//www.googletagmanager.com" />
+	<link rel="dns-prefetch" href="//www.google-analytics.com" />
+	<link rel="canonical" href="https://cssformatter.codethoi.com/" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description" content="HTML Formatter - Beautifier Convert HTML Strings to a Friendly Readable Format">
+	<meta NAME="keywords" CONTENT="json, json viewer">
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="HTML Formatter - Beautifier Convert HTML Strings to a Friendly Readable Format" />
+	<link rel="apple-touch-icon" sizes="180x180" href="https://codethoi.com/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://codethoi.com/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://codethoi.com/favicon-16x16.png">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<meta name="google-site-verification" content="wo64O86TdUrMxfsofpwf5VlbUIjjvXHZzDY5abf0ts0" />
+
+	<script src="assets/js/vkbeautify.js"></script> 
+	<script src="assets/js/main.js"></script> 
+	<style>
+		#search_tags {
+		  list-style: none;
+		  margin: 0;
+		  padding: 0px;
+		  font-size: 10px;
+		  color: #888;
+		  text-align: center;
+		}
+		#search_tags li {
+		  display: inline;
+		  padding: 0 4px;
+		  border-right: 1px solid #888;
+		}
+		#search_tags li a {
+			color: #888;
+		}
+		
+		.form-control {
+			border-radius: 0px;
+		}
+		.font-format, 
+		.font-format:focus,
+		.font-format:hover {
+			font-size: 12px;
+			font-family: monospace;
+			background-color: #353535;
+			color: wheat;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12" style="padding: 0px">
+				<h1>HTML Formatter - Beautifier</h1> 
+				<p>Convert HTML Strings to a Friendly Readable Format</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12" style="padding: 0px">
+				<div class="form-group">
+					<input type="button" value="Format" style="width: 150px" onclick="convertFormat()" class="btn btn-primary"/>
+					<input type="button" value="Remove white space" onclick="convertRemoveSpace()" class="btn btn-info" />
+					<input type="button" value="Clear" onclick="convertClear()" class="btn btn-dark"/>
+				</div>
+				<div class="form-group">
+					<textarea class="form-control font-format" autofocus name="input" id="input" placeholder="HTML Data" cols="45" rows="30"></textarea>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12" style="padding: 0px; margin-bottom: 50px">
+				<ul id="search_tags">
+					<li><a href="https://codethoi.com" target="_blank" title="Code Thối | Blog">Code Thối</a></li>
+					<li><a href="https://cssformatter.codethoi.com" target="_blank" title="CSS Formatter & Beautifier Online">CSS Formatter & Beautifier Online</a></li>
+					<li><a href="https://xmlformatter.codethoi.com" target="_blank" title="XML Formatter & Beautifier Online">XML Formatter & Beautifier Online</a></li>
+					<li><a href="https://jsonformatter.codethoi.com" target="_blank" title="JSON Formatter & Beautifier Online">JSON Formatter & Beautifier Online</a></li>
+					<li><a href="https://htmlformatter.codethoi.com" target="_blank" title="HTML Formatter & Beautifier Online">HTML Formatter & Beautifier Online</a></li>
+					<li><a href="https://jsformatter.codethoi.com" target="_blank" title="JS (JavaScript) Formatter & Beautifier Online">JS (JavaScript) Formatter & Beautifier Online</a></li>
+					<li><a href="https://qrcode.codethoi.com" target="_blank" title="QR code generator">QR code Generator</a></li>
+					<li><a href="https://ruler.codethoi.com" target="_blank" title="Thước đo online">Thước đo online</a></li>
+					<li><a href="https://jconv.codethoi.com" target="_blank" title="Unicode Convert">Unicode Convert</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
